@@ -1,0 +1,57 @@
+.Header
+    position: fixed
+    width: 100%
+    @media (max-width: 1200px)
+        background: #F2C4A3
+    .Menu
+        margin: 0
+        margin: 27px 0 0 30px
+        @media (max-width: 1200px)
+            display: none
+        .MenuItem
+            width: auto
+            -moz-box-sizing: border-box
+            box-sizing: border-box
+            margin: 0 10px
+            transition: all 0.4s ease
+            cursor: pointer
+            letter-spacing: 1px
+            &:hover
+                text-shadow: 0px 0px 1px black
+    .MiniProfile
+        margin: 0
+        width: 240px
+        margin: 20px 30px 0 0
+        @media (max-width: 1200px)
+            width: 100%!important
+        // .AvatarWithName
+            // margin-right: 20px
+        .Badges
+            margin-left: -22px
+            svg, span
+                cursor: pointer
+            svg:hover path, svg:hover rect, svg:hover ~ span
+                stroke: #CD845C
+                color: #CD845C
+                cursor: pointer
+            span
+                position: relative
+                top: -5px
+                left: 24px
+                margin-left: -22px
+                font-family: Roboto Mono
+                font-style: normal
+                font-weight: bold
+                font-size: 12px
+                line-height: 14px
+                letter-spacing: 0.5px
+                text-transform: uppercase
+                color: #000000
+        .MenuBurger
+            width: 15px
+            height: 14px
+            svg
+                cursor: pointer
+            svg:hover path
+                stroke: #CD845C
+                color: #CD845C

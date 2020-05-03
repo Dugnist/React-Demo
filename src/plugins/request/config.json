@@ -1,0 +1,6 @@
+{
+  "name": "request",
+  "apiURL": "http://localhost:8989",
+  "apiProductionURL": "https://reqres.in",
+  "apiVersion": "api"
+}
